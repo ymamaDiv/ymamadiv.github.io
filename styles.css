@@ -55,3 +55,12 @@ p {
 .links a:hover {
   color: white;
 }
+.lang-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+} 
