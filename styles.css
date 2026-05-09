@@ -56,25 +56,29 @@ p {
   color: white;
 }
 
-.lang-btn {
-  padding: 12px 25px;
-  position: absolute;
-  top: 5px;
-  right: 5px;
+  .lang-btn {
+  padding: 12px 22px;
   font-size: 16px;
-  color: #00ffff;
-  background: transparent;
-  border: 2px solid #00ffff;
-  border-radius: 8px;
+  color: #0eb4dd;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  border-radius: 10px;
   cursor: pointer;
   text-decoration: none;
-  transition: 0.3s ease;
-  box-shadow: 0 0 5px #00ffff, 0 0 15px #00ffff;
+  transition: 0.25s ease;
+
+  box-shadow: 
+    0 0 8px rgba(99, 102, 241, 0.2),
+    0 0 15px rgba(168, 85, 247, 0.15);
 }
 
 .lang-btn:hover {
-  background: #00ffff;
-  color: black;
-  box-shadow: 0 0 10px #00ffff, 0 0 25px #00ffff, 0 0 50px #00ffff;
-  transform: scale(1.05);
+  transform: translateY(-2px);
+
+  background: rgba(255, 255, 255, 0.08);
+
+  box-shadow: 
+    0 0 10px rgba(99, 102, 241, 0.35),
+    0 0 20px rgba(168, 85, 247, 0.25),
+    0 0 30px rgba(56, 189, 248, 0.2);
 }
