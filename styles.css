@@ -55,7 +55,7 @@ p {
 .links a:hover {
   color: white;
 }
-.lang-btn {
+/*.lang-btn {
   position: absolute;
   top: 5px;
   right: 5px;
@@ -64,4 +64,26 @@ p {
   border-radius: 6px;
   cursor: pointer;
   bacground-color:#38bdf8;
-} 
+} */
+.lang-btn {
+  padding: 12px 25px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 16px;
+  color: #00ffff;
+  background: transparent;
+  border: 2px solid #00ffff;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s ease;
+  box-shadow: 0 0 5px #00ffff, 0 0 15px #00ffff;
+}
+
+.lang-btn:hover {
+  background: #00ffff;
+  color: black;
+  box-shadow: 0 0 10px #00ffff, 0 0 25px #00ffff, 0 0 50px #00ffff;
+  transform: scale(1.05);
+}
