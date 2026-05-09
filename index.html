@@ -10,22 +10,37 @@
 
   <div class="container">
 
-    <h1>👋 Hi, I’m Yamamah</h1>
+    <button onclick="toggleLanguage()" class="lang-btn">
+      🌐 Change Language
+    </button>
 
-    <p>
-      I’m a Front-End Developer in progress.  
-      I love building clean and simple websites and learning new technologies.
+    <h1 id="title">👋 Hi, I’m Yamamah</h1>
+
+    <p id="desc">
+      I’m a Front-End Developer in progress. I love building clean and simple websites.
     </p>
 
-    <a href="portfolio.html" class="btn">View My Portfolio</a>
-
-    <div class="links">
-      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
-      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-      <a href="mailto:youremail@gmail.com">Email</a>
-    </div>
+    <a href="portfolio.html" class="btn" id="btn">View My Portfolio</a>
 
   </div>
+
+  <script>
+    let isArabic = false;
+
+    function toggleLanguage() {
+      isArabic = !isArabic;
+
+      if (isArabic) {
+        document.getElementById("title").innerText = "👋 أهلاً، أنا يمامة";
+        document.getElementById("desc").innerText = "أنا متعلمة تطوير واجهات أمامية وأحب تصميم مواقع بسيطة وجميلة";
+        document.getElementById("btn").innerText = "عرض المشاريع";
+      } else {
+        document.getElementById("title").innerText = "👋 Hi, I’m Yamamah";
+        document.getElementById("desc").innerText = "I’m a Front-End Developer in progress. I love building clean and simple websites.";
+        document.getElementById("btn").innerText = "View My Portfolio";
+      }
+    }
+  </script>
 
 </body>
 </html>
