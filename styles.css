@@ -57,10 +57,11 @@ p {
 }
 .lang-btn {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 5px;
+  right: 5px;
   padding: 8px 12px;
   border: none;
   border-radius: 6px;
   cursor: pointer;
+  bacground-color:#38bdf8;
 } 
