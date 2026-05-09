@@ -2,45 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Portfolio</title>
+  <title>Home</title>
   <link rel="stylesheet" href="styles.css">
-</head>
-
+ </head>
 <body>
+
+  <button id="langBtn" class="lang-btn left" onclick="toggleLanguage()">
+    🌐 Change Language
+  </button>
 
   <div class="container">
 
-    <button onclick="toggleLanguage()" class="lang-btn">
-      🌐 Change Language
-    </button>
-
-    <h1 id="title">👋 Hi, I’m Yamamah</h1>
+    <h1 id="title">Hi, I’m Yamamah 👋</h1>
 
     <p id="desc">
-      I’m a Front-End Developer in progress. I love building clean and simple websites.
+      I’m learning Front-End Development and building simple websites.
     </p>
 
-    <a href="portfolio.html" class="btn" id="btn">View My Portfolio</a>
+    <a href="portfolio.html" class="neon-btn" id="btn">
+      View Portfolio
+    </a>
 
   </div>
 
-  <script>
-    let isArabic = false;
+<script src="script.js"></script>
 
-    function toggleLanguage() {
-      isArabic = !isArabic;
 
-      if (isArabic) {
-        document.getElementById("title").innerText = "👋 أهلاً، أنا يمامة";
-        document.getElementById("desc").innerText = "أنا متعلمة تطوير واجهات أمامية وأحب تصميم مواقع بسيطة وجميلة";
-        document.getElementById("btn").innerText = "عرض المشاريع";
-      } else {
-        document.getElementById("title").innerText = "👋 Hi, I’m Yamamah";
-        document.getElementById("desc").innerText = "I’m a Front-End Developer in progress. I love building clean and simple websites.";
-        document.getElementById("btn").innerText = "View My Portfolio";
-      }
-    }
-  </script>
-
-</body>
-</html>
+ 
