@@ -55,16 +55,7 @@ p {
 .links a:hover {
   color: white;
 }
-/*.lang-btn {
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  padding: 8px 12px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  bacground-color:#38bdf8;
-} */
+
 .lang-btn {
   padding: 12px 25px;
   position: absolute;
