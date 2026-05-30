@@ -10,8 +10,11 @@ function toggleLanguage() {
 
     // عربي
     document.getElementById("title").innerText = "أهلاً، أنا يمامة 👋";
-    document.getElementById("desc").innerText = "أنا أتعلم تطوير الواجهات الأمامية وأبني مواقع بسيطة";
-    document.getElementById("btn").innerText = "عرض المشاريع";
+    document.getElementById("desc").innerText = "خريجة تقنية معلومات، أركز بشكل متزايد على تطوير المواقع الإلكترونية وإنشاء المنتجات الرقمية.
+                      أستمتع بتحويل الأفكار إلى تجارب عملية سهلة الاستخدام، مع الحرص على تطوير مهاراتي التقنية باستمرار,
+      هنا ستجدون مشاريع تعكس مسيرتي في مجال التكنولوجيا، وحل المشكلات، والتصميم الإبداعي.
+      ";
+    document.getElementById("btn").innerText = "عرض ملف الاعمال ";
 
     btn.innerText = "🌐 English";
 
